@@ -1,0 +1,83 @@
+body {
+    background-color: #666666;
+    font-family: Verdana;
+}
+
+
+div#caixa {
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    border: black 1px solid;
+    box-shadow: 0px 0px 10px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#opcoes1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.comandos{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#opcoes2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.inputOpcoes{  
+    text-align: center; 
+    padding: 20px 0px;
+}
+.restaurar{
+    width: 500px;
+}
+
+
+
+
+
+
+div#index {
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    border: black 1px solid;
+    box-shadow: 0px 0px 10px;
+    width: 90%;
+}
+
+h1#titulo {
+    color: #000066;
+    font-style: normal;
+    font-size: 32px;
+}
+
+a.link,.separador{
+    font-size: 16px;
+}
+
+h2.subtitulo {
+    color: #0080C0;
+    font-style: normal;
+    font-size: 24px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.texto{
+    font-size: 11pt;
+}
+
+.nomeLabel{
+    font-size: 11pt;
+}
+#endereco {
+    text-align: center;
+    font-size: 10pt;
+    font-style: normal;
+}
